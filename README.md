@@ -9,8 +9,11 @@
 ## Play the game 🎮
 
 [Play directly](https://ibtros.web.app/) in your desktop browser
-![Play Now](https://i.ibb.co/L5bFZ79/intro-Scren.png)
+[![Play Now](https://i.ibb.co/L5bFZ79/intro-Scren.png)](https://ibtros.web.app/)
 
+# Read About Plastic
+
+[![Read About Plastic](https://i.ibb.co/Lz8nPLy/Pngtree-realistic-plastic-bottles-3993775.png)](https://ope.pythonanywhere.com/post/7)
 
 # Plastic Hunt Architectural Diagram
 

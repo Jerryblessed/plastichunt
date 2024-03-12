@@ -61,8 +61,9 @@ class WebButtons extends StatelessWidget {
                 // (score)
 
                 //  Navigator.pushNamed(context, '/login');
-
-                const url = 'https://www.bing.com'; // URL you want to open
+                // wallet source code is located at wallet.dart at lib folder
+                const url =
+                    'https://tagvideo-9f1c6.web.app/'; // URL you want to open
                 launch(url); // Function to open the URL
               },
             ),

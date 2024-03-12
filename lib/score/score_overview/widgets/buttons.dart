@@ -6,6 +6,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:super_dash/l10n/l10n.dart';
 import 'package:super_dash/score/score.dart';
 import 'package:super_dash/share/share.dart';
+import 'package:url_launcher/url_launcher.dart'; // Import the url_launcher package
 
 const _gradient = LinearGradient(
   begin: Alignment.topCenter,
@@ -29,6 +30,43 @@ class WebButtons extends StatelessWidget {
         Row(
           mainAxisSize: MainAxisSize.min,
           children: [
+            _ShareButton(
+              icon: const Icon(
+                FontAwesomeIcons.bottleWater,
+                size: 20,
+                color: Colors.white,
+              ),
+              onPressed: () {
+                // final score = context.read<ScoreBloc>().score;
+                // context.read<ShareController>().shareOnTwitter
+                // (score)
+
+                //  Navigator.pushNamed(context, '/login');
+
+                const url =
+                    'https://ope.pythonanywhere.com/post/7'; // URL you want to open
+                launch(url); // Function to open the URL
+              },
+            ),
+            const SizedBox(width: 16),
+            _ShareButton(
+              icon: const Icon(
+                FontAwesomeIcons.googleWallet,
+                size: 20,
+                color: Colors.white,
+              ),
+              onPressed: () {
+                // final score = context.read<ScoreBloc>().score;
+                // context.read<ShareController>().shareOnTwitter
+                // (score)
+
+                //  Navigator.pushNamed(context, '/login');
+
+                const url = 'https://www.bing.com'; // URL you want to open
+                launch(url); // Function to open the URL
+              },
+            ),
+            const SizedBox(width: 16),
             _ShareButton(
               icon: const Icon(
                 FontAwesomeIcons.xTwitter,

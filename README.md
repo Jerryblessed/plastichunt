@@ -8,7 +8,7 @@
 
 ## Play the game 🎮
 
-[Play directly](https://ibtros.web.app/) in your desktop browser
+[Play directly](https://ibtros.web.app/) in your web browser
 
 # Read About Plastic
 

@@ -9,6 +9,8 @@
 ## Play the game 🎮
 
 [Play directly](https://ibtros.web.app/) in your desktop browser
+![Play Now](https://i.ibb.co/L5bFZ79/intro-Scren.png)
+
 
 # Plastic Hunt Architectural Diagram
 

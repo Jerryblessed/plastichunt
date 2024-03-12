@@ -2,14 +2,13 @@
 
 ![coverage][coverage_badge]
 [![style: very good analysis][very_good_analysis_badge]][very_good_analysis_link]
-[![License: MIT][license_badge]][license_link]
+
 
 ---
 
 ## Play the game 🎮
 
 [Play directly](https://ibtros.web.app/) in your desktop browser
-[![Play Now](https://i.ibb.co/L5bFZ79/intro-Scren.png)](https://ibtros.web.app/)
 
 # Read About Plastic
 
